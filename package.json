@@ -1,0 +1,30 @@
+{
+  "name": "taskman-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI task manager",
+  "main": "bin/index.js",
+  "bin": {
+    "taskman": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/taskman-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "task",
+    "manager"
+  ],
+  "author": "Fauzira Alpiandi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauziralpiandi/taskman-cli/issues"
+  },
+  "homepage": "https://github.com/fauziralpiandi/taskman-cli#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
